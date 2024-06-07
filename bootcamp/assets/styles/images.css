@@ -1,0 +1,108 @@
+.w-100px{
+    width: 100px;
+}
+
+.w-50-percent{
+    width: 50%;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.h-50-percent{
+    height: 50%;
+}
+
+.bg-img{
+    background-image: url(../images/pexels-photo-326012.jpeg);
+}
+
+.bg-dot{
+    background-image: url(../images/dot.jpg);
+}
+
+.style-01{
+    height: 300px;
+    border: 2px solid darkred;
+    margin-bottom: 25px;
+}
+
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-x{
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-y{
+    background-repeat: repeat-y;
+}
+
+.bg-repeat{
+    background-repeat: repeat;
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+.bg-contain{
+    background-size: contain;
+}
+
+.bg-200px-100px{
+    background-size: 200px 100px;
+}
+
+.bg-left-top{
+    background-position: left top;
+}
+
+.bg-center-top{
+    background-position: center top;
+}
+
+.bg-right-top{
+    background-position: right top;
+}
+
+.bg-left-center{
+    background-position: left center;
+}
+
+.bg-center-center{
+    background-position: center center;
+}
+
+.bg-right-center{
+    background-position: right center;
+}
+
+.bg-left-bottom{
+    background-position: left bottom;
+}
+
+.bg-center-bottom{
+    background-position: center bottom;
+}
+
+.bg-right-bottom{
+    background-position: right bottom;
+}
+
+.bg-fixed{
+    background-image: url(../images/pexels-photo-6845638.webp);
+    background-attachment: fixed;
+}
+
+.bg-scroll{
+    background-image: url(../images/pexels-photo-6845638.webp);
+    background-attachment: scroll;
+}
+
+.background{
+    background: navy url(../images/pexels-photo-6845638.webp) no-repeat fixed center;
+    background-size: contain;
+}

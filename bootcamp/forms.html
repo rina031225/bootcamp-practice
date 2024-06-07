@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <!-- action => WHERE the data will be taken to when the user clicks submit -->
+    <!-- method=> HOW the data will be taken to the action -->
+    <form action="" method="">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required placeholder="Enter username">  
+        <!-- for and id attribute should be the same -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="Password" required placeholder="Enter username">
+
+        <!-- submit button - option 1 -->
+        <input type="submit" value="Login" name="btn_login">
+    </form>
+
+    <hr>
+    <h1>Other Details</h1>
+    <form action="" method="">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80"> <!--number input-->
+        <!-- min=> sets the smallest number the input field could take -->
+        <!-- max=> sets the largest number the input field could take -->
+        <br><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="emil" id="email"> 
+        <br><br>
+        <label for="bio">Bio / Description</label>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <br><br>
+        <p>Select your music:</p>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="pop">Jazz</label>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="pop">Rock</label>
+        <br><br>
+
+        <p>Select your hobby/ies:</p>
+        <input type="checkbox" name="hobby" id="baking" value="baking">
+        <label for="baking">Baking</label>
+        <input type="checkbox" name="hobby" id="biking" value="biking">
+        <label for="baking">Biking</label>
+        <input type="checkbox" name="hobby" id="painting" value="painting">
+        <label for="baking">Painting</label>
+        <br><br>
+        <label for="device">Select a device:</label>
+        <select name="device" id="device"> <!--dropdown select box-->
+            <option value="mobile">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computed</option>
+            <option value="desktop">Desktop Computed</option>
+        </select>
+        <br><br>
+        <label for="device">Select a device:</label>
+        <select name="device" id="device" multiple> <!--multiple select box-->
+            <option value="mobile">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computed</option>
+            <option value="desktop">Desktop Computed</option>
+        </select>
+        <br><br>
+        <label for="photo">Submit a Photo</label>
+        <input type="file" name="photo" id="photo">
+        
+        <!-- SUMBIT BUTTON --OPTION2 -->
+        <br><br>
+        <button type="submit" name="btn_submit">Submit</button>
+    </form>
+
+
+</body>
+</html>
